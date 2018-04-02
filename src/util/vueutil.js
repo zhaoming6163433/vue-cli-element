@@ -1,4 +1,5 @@
 import appConfigs from 'src/configs'
+import echarts from 'echarts'
 
 export default{
 	//全局方法 Vue.filter() 注册一个自定义过滤器,必须放在Vue实例化前面
@@ -42,6 +43,8 @@ export default{
 	Vue.prototype.loaderrimg = function(e){
 
     };
+    //echarts
+    Vue.prototype.$echarts = echarts;
 	//加载图片处理
 	Vue.prototype.loadimg = function(e){
 		var _dom = $(e.currentTarget),

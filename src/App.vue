@@ -52,7 +52,7 @@ export default {
             if (name) {
                 document.title = this.titlename[name]
             }else{
-                document.title = "医院管理系统";
+                document.title = "PC端";
             }
         }
     },
